@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.63dd6296.css",
+    "main.js": "/static/js/main.fd56cc01.js",
+    "static/js/787.852ba6a8.chunk.js": "/static/js/787.852ba6a8.chunk.js",
+    "static/media/itunes-logo.jpeg": "/static/media/itunes-logo.096241687d52a7ef2837.jpeg",
+    "static/media/searchIcon.png": "/static/media/searchIcon.164501d8c3faddcf88c8.png",
+    "static/media/bg-white.jpeg": "/static/media/bg-white.ed141d0f21a25bac30e9.jpeg",
+    "static/media/crossIcon.png": "/static/media/crossIcon.0e77446b9d57434003f9.png",
+    "index.html": "/index.html",
+    "main.63dd6296.css.map": "/static/css/main.63dd6296.css.map",
+    "main.fd56cc01.js.map": "/static/js/main.fd56cc01.js.map",
+    "787.852ba6a8.chunk.js.map": "/static/js/787.852ba6a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63dd6296.css",
+    "static/js/main.fd56cc01.js"
+  ]
+}

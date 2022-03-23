@@ -1,0 +1,144 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+  height: 3rem;
+  pointer-events: none;
+  margin: 0rem 1rem;
+  border-radius: 4px;
+}
+.RText {
+  color: red;
+}
+
+/* Images */
+.searchIconImg {
+  height: 2rem;
+  pointer-events: none;
+  margin: 0rem 1rem;  
+}
+
+.artworkImg {
+  width: 6rem; 
+}
+
+/* header starts here */
+
+.header {
+  background-image: url('bg-white.jpeg');
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  border-bottom: 1px solid #dedede;
+}
+
+.searchBoxDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  
+  margin-left: 12rem;
+  margin-right: 0.5rem; 
+}
+
+.mainPage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+
+/* Favourites */
+
+.favourites {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+  max-width: 31%;
+  padding: 1rem;
+  margin: 1rem 1rem 0.5rem 1rem;
+  border: 1px solid #cac9c9; 
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #cac9c9;
+  background-color: whitesmoke;
+}
+
+.FTitle {
+  display: flex;
+  flex-direction: row;
+}
+
+.favourites h2 {
+  margin-bottom: 1rem;
+  display: inline;
+}
+
+.FDiv {
+  background-color: ghostwhite ;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.crossIcon {
+  width: 1rem;
+}
+
+.FDiv button {
+  background-image: url('crossIcon.png');
+  background-size: cover;
+  background-color:ghostwhite;
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 1rem;
+  border: 0;
+  margin-left: auto;
+}
+
+.deleteButton {
+  display: flex;
+  margin-left: auto;
+}
+
+.greyP {
+  color: rgb(78, 78, 83);
+}
+
+.result {
+  margin: 1rem 0.5rem 1rem 1rem;
+  padding: 1rem;
+  max-width: 65%;
+  border: 1px solid #dedede; 
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #dedede;
+  background-color: white;
+}
+
+.result h2 {
+  margin-bottom: 1rem;
+}
+
+.resultsListItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #f3f3f3;
+  border: 1px solid #dedede;
+}
+
+.ulListDiv {
+  width: 45rem;
+  max-width: 45rem;;
+}
+
+.resultsListItem Button {
+  align-self: flex-start;
+  margin-left: auto;
+  width: 10rem;
+  max-width: 10rem;
+}

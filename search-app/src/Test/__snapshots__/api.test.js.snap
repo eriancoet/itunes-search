@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DisplayResults/> should render correctly in "debug" mode 1`] = `
+<div
+  className="result"
+>
+  <h2>
+    Search Results
+  </h2>
+  <p>
+    Search term: 
+    <b />
+    , Media type:
+     
+    <b />
+  </p>
+</div>
+`;
+
+
