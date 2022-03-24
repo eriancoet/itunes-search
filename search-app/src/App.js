@@ -5,7 +5,6 @@ import Header from "./Components/TopBar";
 import Define from "./Components/Define";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
-import media from "./itunes-logo.jpeg";
 import "./App.css";
 
 // App Component
@@ -127,7 +126,7 @@ class App extends React.Component {
         let kindOfMedia = "";
 
         if (<Define request={() => array[i].artworkUrl100} /> === undefined) {
-          imgSource = media;
+          imgSource = "No artwork given";
         } else {
           imgSource = array[i].artworkUrl100;
         }
@@ -159,7 +158,7 @@ class App extends React.Component {
     // Results, add to the mix...
         results.push(
           <div className="resultsListItem" key={i}>
-            <img src={imgSource} alt="artist artwork" className="artworkImg" />
+            <img src={imgSource} alt="Album Art" className="artworkImg" />
 
             <div className="ulListDiv">
               <ul>
