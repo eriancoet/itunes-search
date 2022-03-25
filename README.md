@@ -10,5 +10,5 @@ Install node/ npm
 npm start
 
 ### Open Project in heroku
-https://itunes-app-hyperiondev.herokuapp.com/
+https://fast-earth-93423.herokuapp.com/
 
