@@ -2,7 +2,7 @@ import React from "react";
 import Favourites from "./Components/Favourites";
 import DisplayResults from "./Components/Display";
 import Header from "./Components/TopBar";
-import getSafe from "./Components/Define";
+import getSafe from "./Components/getSafe";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";

@@ -6,5 +6,4 @@ function getSafe(props) {
     }
   }
   
-  // Export component to be used in other files
   export default getSafe;
