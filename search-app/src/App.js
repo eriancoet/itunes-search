@@ -2,7 +2,7 @@ import React from "react";
 import Favourites from "./Components/Favourites";
 import DisplayResults from "./Components/Display";
 import Header from "./Components/TopBar";
-import Define from "./Components/Define";
+import getSafe from "./Components/Define";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -125,31 +125,31 @@ class App extends React.Component {
         let collection = "";
         let kindOfMedia = "";
 
-        if (<Define request={() => array[i].artworkUrl100} /> === undefined) {
+        if (<getSafe request={() => array[i].artworkUrl100} /> === undefined) {
           imgSource = "No artwork given";
         } else {
           imgSource = array[i].artworkUrl100;
         }
 
-        if (<Define request={() => array[i].trackName} /> === undefined) {
+        if (<getSafe request={() => array[i].trackName} /> === undefined) {
           track = "No track name given";
         } else {
           track = array[i].trackName;
         }
 
-        if (<Define request={() => array[i].artistName} /> === undefined) {
+        if (<geSafe request={() => array[i].artistName} /> === undefined) {
           artist = "No artist name given";
         } else {
           artist = array[i].artistName;
         }
 
-        if (<Define request={() => array[i].collectionName} /> === undefined) {
+        if (<getSafe request={() => array[i].collectionName} /> === undefined) {
           collection = "No collection name given";
         } else {
           collection = array[i].collectionName;
         }
 
-        if (<Define request={() => array[i].kind} /> === undefined) {
+        if (<getSafe request={() => array[i].kind} /> === undefined) {
           kindOfMedia = "No collection name given";
         } else {
           kindOfMedia = array[i].kind;
