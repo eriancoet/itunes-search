@@ -5,8 +5,7 @@ const numCPUs = require("os").cpus().length;
 
 const bodyParser = require("body-parser");
 // Helmet for security
-const helmet = require("helmet");
-
+//const helmet = require("helmet");
 const isDev = process.env.NODE_ENV !== "production";
 // Port 3000
 const PORT = process.env.PORT || 3000;
@@ -26,11 +25,12 @@ if (!isDev && cluster.isMaster) {
 } else {
   const app = express();
 
-  app.use(
+  /*app.use(
     helmet({
       contentSecurityPolicy: false,
     })
   );
+  */
 // Body Parser
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
